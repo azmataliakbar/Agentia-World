@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.bg-gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-500;
+}
+
+.animate-gradient-x {
+  animation: gradient-x 15s ease infinite;
+}
+
+.animate-gradient-y {
+  animation: gradient-y 15s ease infinite;
+}
+
+.animate-gradient-xy {
+  animation: gradient-xy 15s ease infinite;
+}
+
+
