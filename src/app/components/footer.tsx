@@ -105,6 +105,8 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-800 pt-6 text-center">
           <p className="text-sm text-gray-400">© 2025 Agentia World. Powered by Panaversity. All rights reserved.</p>
+          <br />
+          <h6 className="text-sm text-gray-400">Author: Azmat Ali</h6>
         </div>
       </div>
     </footer>
